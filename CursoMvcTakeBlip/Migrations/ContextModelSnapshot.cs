@@ -53,7 +53,7 @@ namespace CursoMvcTakeBlip.Migrations
 
                     b.HasIndex("CategoriaId");
 
-                    b.ToTable("Produto");
+                    b.ToTable("Produtos");
                 });
 
             modelBuilder.Entity("CursoMvcTakeBlip.Models.Produto", b =>

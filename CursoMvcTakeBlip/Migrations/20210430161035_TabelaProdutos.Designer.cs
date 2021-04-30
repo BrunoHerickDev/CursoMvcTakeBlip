@@ -9,8 +9,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace CursoMvcTakeBlip.Migrations
 {
     [DbContext(typeof(Context))]
-    [Migration("20210429222651_InitialCreate")]
-    partial class InitialCreate
+    [Migration("20210430161035_TabelaProdutos")]
+    partial class TabelaProdutos
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
@@ -55,7 +55,7 @@ namespace CursoMvcTakeBlip.Migrations
 
                     b.HasIndex("CategoriaId");
 
-                    b.ToTable("Produto");
+                    b.ToTable("Produtos");
                 });
 
             modelBuilder.Entity("CursoMvcTakeBlip.Models.Produto", b =>

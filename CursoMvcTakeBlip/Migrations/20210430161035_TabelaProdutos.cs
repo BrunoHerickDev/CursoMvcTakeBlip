@@ -2,7 +2,7 @@
 
 namespace CursoMvcTakeBlip.Migrations
 {
-    public partial class InitialCreate : Migration
+    public partial class TabelaProdutos : Migration
     {
         protected override void Up(MigrationBuilder migrationBuilder)
         {
@@ -20,7 +20,7 @@ namespace CursoMvcTakeBlip.Migrations
                 });
 
             migrationBuilder.CreateTable(
-                name: "Produto",
+                name: "Produtos",
                 columns: table => new
                 {
                     Id = table.Column<int>(type: "int", nullable: false)
@@ -31,9 +31,9 @@ namespace CursoMvcTakeBlip.Migrations
                 },
                 constraints: table =>
                 {
-                    table.PrimaryKey("PK_Produto", x => x.Id);
+                    table.PrimaryKey("PK_Produtos", x => x.Id);
                     table.ForeignKey(
-                        name: "FK_Produto_Categorias_CategoriaId",
+                        name: "FK_Produtos_Categorias_CategoriaId",
                         column: x => x.CategoriaId,
                         principalTable: "Categorias",
                         principalColumn: "Id",
@@ -41,15 +41,15 @@ namespace CursoMvcTakeBlip.Migrations
                 });
 
             migrationBuilder.CreateIndex(
-                name: "IX_Produto_CategoriaId",
-                table: "Produto",
+                name: "IX_Produtos_CategoriaId",
+                table: "Produtos",
                 column: "CategoriaId");
         }
 
         protected override void Down(MigrationBuilder migrationBuilder)
         {
             migrationBuilder.DropTable(
-                name: "Produto");
+                name: "Produtos");
 
             migrationBuilder.DropTable(
                 name: "Categorias");
