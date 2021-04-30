@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30907.101
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CursoMVCTakeBlip", "CursoMVCTakeBlip\CursoMVCTakeBlip.csproj", "{94DB4848-DDF1-4CEF-82A3-8735DF8A6A58}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CursoMvcTakeBlip", "CursoMvcTakeBlip\CursoMvcTakeBlip.csproj", "{716D687F-670E-432C-8298-614DEA2257B6}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,10 +11,10 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{94DB4848-DDF1-4CEF-82A3-8735DF8A6A58}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{94DB4848-DDF1-4CEF-82A3-8735DF8A6A58}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{94DB4848-DDF1-4CEF-82A3-8735DF8A6A58}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{94DB4848-DDF1-4CEF-82A3-8735DF8A6A58}.Release|Any CPU.Build.0 = Release|Any CPU
+		{716D687F-670E-432C-8298-614DEA2257B6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{716D687F-670E-432C-8298-614DEA2257B6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{716D687F-670E-432C-8298-614DEA2257B6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{716D687F-670E-432C-8298-614DEA2257B6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

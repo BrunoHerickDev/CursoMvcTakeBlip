@@ -11,7 +11,7 @@
 using System;
 using System.Reflection;
 
-[assembly: Microsoft.AspNetCore.Mvc.ApplicationParts.RelatedAssemblyAttribute("CursoMVCTakeBlip.Views")]
+[assembly: Microsoft.AspNetCore.Mvc.ApplicationParts.RelatedAssemblyAttribute("CursoMvcTakeBlip.Views")]
 
 // Gerado pela classe WriteCodeFragment do MSBuild.
 

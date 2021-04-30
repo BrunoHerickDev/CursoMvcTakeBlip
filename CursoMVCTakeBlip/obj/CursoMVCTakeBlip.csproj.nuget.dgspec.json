@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Cursos\\Digital Innovation One\\Desenvolvimento de aplicações com .NET\\App\\CursoMVCTakeBlip\\CursoMVCTakeBlip\\CursoMVCTakeBlip.csproj": {}
+    "C:\\Cursos\\Digital Innovation One\\Desenvolvimento de aplicações com .NET\\App\\CursoMVCTakeBlip\\CursoMvcTakeBlip\\CursoMvcTakeBlip.csproj": {}
   },
   "projects": {
-    "C:\\Cursos\\Digital Innovation One\\Desenvolvimento de aplicações com .NET\\App\\CursoMVCTakeBlip\\CursoMVCTakeBlip\\CursoMVCTakeBlip.csproj": {
+    "C:\\Cursos\\Digital Innovation One\\Desenvolvimento de aplicações com .NET\\App\\CursoMVCTakeBlip\\CursoMvcTakeBlip\\CursoMvcTakeBlip.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Cursos\\Digital Innovation One\\Desenvolvimento de aplicações com .NET\\App\\CursoMVCTakeBlip\\CursoMVCTakeBlip\\CursoMVCTakeBlip.csproj",
-        "projectName": "CursoMVCTakeBlip",
-        "projectPath": "C:\\Cursos\\Digital Innovation One\\Desenvolvimento de aplicações com .NET\\App\\CursoMVCTakeBlip\\CursoMVCTakeBlip\\CursoMVCTakeBlip.csproj",
+        "projectUniqueName": "C:\\Cursos\\Digital Innovation One\\Desenvolvimento de aplicações com .NET\\App\\CursoMVCTakeBlip\\CursoMvcTakeBlip\\CursoMvcTakeBlip.csproj",
+        "projectName": "CursoMvcTakeBlip",
+        "projectPath": "C:\\Cursos\\Digital Innovation One\\Desenvolvimento de aplicações com .NET\\App\\CursoMVCTakeBlip\\CursoMvcTakeBlip\\CursoMvcTakeBlip.csproj",
         "packagesPath": "C:\\Users\\bruno\\.nuget\\packages\\",
-        "outputPath": "C:\\Cursos\\Digital Innovation One\\Desenvolvimento de aplicações com .NET\\App\\CursoMVCTakeBlip\\CursoMVCTakeBlip\\obj\\",
+        "outputPath": "C:\\Cursos\\Digital Innovation One\\Desenvolvimento de aplicações com .NET\\App\\CursoMVCTakeBlip\\CursoMvcTakeBlip\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\",
@@ -44,6 +44,30 @@
       "frameworks": {
         "net5.0": {
           "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.5, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[5.0.4, )"
+            },
+            "Microsoft.EntityFrameworkCore.Sqlite": {
+              "target": "Package",
+              "version": "[5.0.4, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.4, )"
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[5.0.2, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",

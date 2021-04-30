@@ -11,12 +11,12 @@
 using System;
 using System.Reflection;
 
-[assembly: System.Reflection.AssemblyCompanyAttribute("CursoMVCTakeBlip")]
+[assembly: System.Reflection.AssemblyCompanyAttribute("CursoMvcTakeBlip")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
 [assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
-[assembly: System.Reflection.AssemblyProductAttribute("CursoMVCTakeBlip")]
-[assembly: System.Reflection.AssemblyTitleAttribute("CursoMVCTakeBlip")]
+[assembly: System.Reflection.AssemblyProductAttribute("CursoMvcTakeBlip")]
+[assembly: System.Reflection.AssemblyTitleAttribute("CursoMvcTakeBlip")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
 
 // Gerado pela classe WriteCodeFragment do MSBuild.
