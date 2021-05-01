@@ -6,7 +6,7 @@ namespace CursoMvcTakeBlip.Models
     {
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            optionsBuilder.UseSqlServer("Server=BRUNO-PC;Database=CursoMVCTakeBlip;User Id=sa;Password=123456;");
+            optionsBuilder.UseSqlServer("Server=tcp:cursomvctakeblipdbserver.database.windows.net,1433;Initial Catalog=CursoMvcTakeBlip_db;Persist Security Info=False;User ID=adm_bruno;Password=Brun0H3rick;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;");
         }
 
         public DbSet<Categoria> Categorias { get; set; }

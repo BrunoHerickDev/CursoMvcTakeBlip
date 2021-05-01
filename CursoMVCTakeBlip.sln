@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CursoMvcTakeBlip", "CursoMv
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CursoMvcTakeBlip.Api", "CursoMvcTakeBlip.Api\CursoMvcTakeBlip.Api.csproj", "{3426AA86-3E86-4DA1-8AF4-0EE7325FD5A8}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CursoMvcTakeBlip.Test", "CursoMvcTakeBlip.Test\CursoMvcTakeBlip.Test.csproj", "{B946AA94-8B98-4747-AADA-521CF225748F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{3426AA86-3E86-4DA1-8AF4-0EE7325FD5A8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3426AA86-3E86-4DA1-8AF4-0EE7325FD5A8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3426AA86-3E86-4DA1-8AF4-0EE7325FD5A8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B946AA94-8B98-4747-AADA-521CF225748F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B946AA94-8B98-4747-AADA-521CF225748F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B946AA94-8B98-4747-AADA-521CF225748F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B946AA94-8B98-4747-AADA-521CF225748F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

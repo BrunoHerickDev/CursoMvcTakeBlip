@@ -11,6 +11,7 @@
 using System;
 using System.Reflection;
 
+[assembly: Microsoft.Extensions.Configuration.UserSecrets.UserSecretsIdAttribute("232275dc-8f69-4e62-894e-15aa1f47aadb")]
 [assembly: System.Reflection.AssemblyCompanyAttribute("CursoMvcTakeBlip")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
